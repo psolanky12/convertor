@@ -1,0 +1,135 @@
+.term {
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(218, 214, 214);
+}
+
+#home {
+    background-color: #a676c4;
+    padding-bottom: 2cm;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-top: 2cm;
+}
+
+header {
+    font-size: 30px;
+    color: rgb(84, 19, 5);
+    float: left;
+    padding-left: 2cm;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 1cm
+}
+
+.topmenu {
+    color: lightgrey;
+    background-color: rgb(183, 154, 217);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(125, 125, 195);
+    text-decoration: none;
+}
+
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.b {
+    border-top: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.temperature {
+    border-top-color: green;
+}
+
+.weight {
+    border-top-color: coral;
+}
+
+.distance {
+    border-top-color: cyan;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.panel {
+    margin-left: 50px;
+}
+
+.iconbutton {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+}
+
+.iconbutton img {
+    width: 30px;
+}
+
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+}
